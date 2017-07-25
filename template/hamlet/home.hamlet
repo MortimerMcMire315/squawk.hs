@@ -1,0 +1,11 @@
+<html>
+    ^{headerT}
+    <body>
+        <div #content>
+            <h1>Hello world!
+            $forall birdcat <- birdCatLs
+                <h2>#{category birdcat}
+                <ul>
+                $forall bird <- birdNames birdcat
+                    <li>#{bird}
+    ^{footerT}
