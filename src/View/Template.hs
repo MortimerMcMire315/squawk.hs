@@ -15,7 +15,7 @@ import View.TemplateUtil ( hamFile
                          , cssFile
                          , jsFile            )
 
-import Quiz.YAML         ( birdNames
+import BirdData.YAML     ( birdNames
                          , category
                          , getBirdNames
                          , BirdCategory      )

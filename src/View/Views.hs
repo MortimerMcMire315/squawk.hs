@@ -23,8 +23,8 @@ import Control.Monad.IO.Class ( liftIO )
 import Data.Maybe             ( fromJust )
 
 import qualified View.Template as Template
-import qualified Quiz.Bird as Bird
-import qualified Quiz.YAML as YAML
+import qualified BirdData.ParseJSON as BirdJSON
+import qualified BirdData.YAML as YAML
 
 serveCSS :: ServerPart Response
 serveCSS = path $ \(cssRequest :: String) ->
@@ -47,7 +47,7 @@ nullDirServe template mimeT = nullDir >> ok (toResMime template mimeT)
 homePage :: ServerPart Response
 homePage = do
     birdList <- liftIO YAML.getBirdNames
-    birdInfo <- liftIO $ Bird.getBirdInfo "Blackbird"
+    birdInfo <- liftIO $ BirdJSON.getBirdInfo "Blackbird"
     liftIO $ print birdInfo
     ok . toResponse . Template.homePageT $ fromJust birdList
 

@@ -1,7 +1,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 {-# LANGUAGE ScopedTypeVariables #-}
 
-module Quiz.YAML (module Quiz.YAML) where
+module BirdData.YAML (module BirdData.YAML) where
 
 import qualified Data.Yaml as Y
 import Prelude hiding  ( readFile )
