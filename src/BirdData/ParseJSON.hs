@@ -28,7 +28,7 @@ getBirdList val = do
 reqURL = "https://solr.allaboutbirds.net/solr/speciesGuide/select?defType=edismax&json.wrf=angular.callbacks._1&q=%s&rows=5&wt=json"
 
 jsonToBird :: ByteString -> Either String [Bird]
-jsonToBird str = parseEither getBirdList =<< eitherDecode str
+jsonToBird json = parseEither getBirdList =<< eitherDecode json
 
 getBirdInfo :: String -> IO (Either String [Bird])
 getBirdInfo name = do
@@ -38,7 +38,12 @@ getBirdInfo name = do
     then return $ Left "Error: Bird not found."
     else do
         {-- The response looks like:
-         -      angular.callbacks._1(<VALID JSON>)
-         -  so we have to extract everything between the parentheses. --}
+         -      angular.callbacks._1({a bunch of json data})
+         -  so we have to extract everything between the parentheses.
+         -  PCRE has lazy (ungreedy) quantifiers, i.e. *?
+         -  https://regex101.com/r/0mgbKM/1                      --}
         let json = sub [re|.*?\((.*)\)|] (\(m:_) -> m :: String) (res ^. responseBody)
-        return $ jsonToBird json
+        -- I want empty JSON to be an error.
+        return $ case jsonToBird json of
+            Right [] -> Left "Error: Bird not found."
+            x        -> x

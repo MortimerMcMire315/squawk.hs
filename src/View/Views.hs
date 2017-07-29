@@ -29,8 +29,9 @@ import qualified BirdData.YAML as YAML
 serveCSS :: ServerPart Response
 serveCSS = path $ \(cssRequest :: String) ->
                 case cssRequest of
-                    "styles.css" -> nullDirServe Template.mainStyleSheet CSS
-                    _            -> notFound $ toResponse ("CSS stylesheet not found." :: String)
+                    "styles.css"    -> nullDirServe Template.mainStyleSheet CSS
+                    "normalize.css" -> nullDirServe Template.normalizeCSS CSS
+                    _               -> notFound $ toResponse ("CSS stylesheet not found." :: String)
 
 serveJS :: ServerPart Response
 serveJS = path $ \(jsRequest :: String) ->
@@ -50,4 +51,3 @@ homePage = do
     birdInfo <- liftIO $ BirdJSON.getBirdInfo "Blackbird"
     liftIO $ print birdInfo
     ok . toResponse . Template.homePageT $ fromJust birdList
-

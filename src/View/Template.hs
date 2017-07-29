@@ -21,14 +21,15 @@ import BirdData.YAML     ( birdNames
                          , BirdCategory      )
 
 mainStyleSheet = renderCss $ $(luciusFile (cssFile "styles")) undefined
+normalizeCSS   = renderCss $ $(luciusFile (cssFile "normalize")) undefined
 
 mainJS = renderJavascriptUrl (\_ _ -> undefined) $(juliusFile (jsFile "main"))
-
-homePageT :: [BirdCategory] -> Html
-homePageT birdCatLs = $(shamletFile $ hamFile "home")
 
 footerT :: Html
 footerT = $(shamletFile $ hamFile "footer")
 
 headerT :: Html
 headerT = $(shamletFile $ hamFile "header")
+
+homePageT :: [BirdCategory] -> Html
+homePageT birdCatLs = $(shamletFile $ hamFile "home")

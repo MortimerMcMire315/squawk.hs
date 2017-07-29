@@ -2,10 +2,15 @@
     ^{headerT}
     <body>
         <div #content>
-            <h1>Hello world!
+            <div #title>
+                <h1>squawk
+            <div #quiz>
+                <p>Placeholder for quiz.
+<!--
             $forall birdcat <- birdCatLs
                 <h2>#{category birdcat}
                 <ul>
                 $forall bird <- birdNames birdcat
                     <li>#{bird}
+-->
     ^{footerT}
