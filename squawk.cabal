@@ -19,12 +19,13 @@ library
   exposed-modules:     Server
 
   other-modules:       Routes
+                     , View.AJAX
                      , View.ContentTypes
                      , View.Views
                      , View.Template
                      , View.TemplateUtil
                      , BirdData.Bird
-                     , BirdData.ParseJSON
+                     , BirdData.JSON
                      , BirdData.YAML
 
   build-depends:       aeson >= 1.0 && < 2.0
