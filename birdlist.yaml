@@ -1,156 +1,746 @@
-- category: Sparrows & Finches
+- category: Ducks, Geese, and Swans
   birds:
-    - American goldfinch
-    - American tree sparrow
-    - Chipping sparrow
-    - Common redpoll
-    - Dark-eyed junco
-    - Dickcissel
-    - Eastern Meadowlark
-    - Eastern towhee
-    - Field sparrow
-    - Fox Sparrow
-    - Grasshopper sparrow
-    - Henslow's sparrow
-    - House finch
-    - House sparrow
-    - Indigo bunting
-    - Northern cardinal
-    - Pine siskin
-    - Purple finch
-    - Rose-breasted grosbeak
-    - Savannah sparrow
-    - Scarlet tanager
-    - Song sparrow
-    - Swamp sparrow
-    - Vesper sparrow
-    - White-crowned sparrow
-    - White-throated sparrow
-    - White-winged crossbill
-    - Yellow-breasted chat
-
-- category: Blackbirds
+  - Black-bellied Whistling-Duck
+  - Fulvous Whistling-Duck
+  - Greater White-fronted Goose
+  - Emperor Goose
+  - Snow Goose
+  - Ross's Goose
+  - Brant
+  - Cackling Goose
+  - Canada Goose
+  - Mute Swan
+  - Trumpeter Swan
+  - Tundra Swan
+  - Muscovy Duck
+  - Wood Duck
+  - Gadwall
+  - Eurasian Wigeon
+  - American Wigeon
+  - American Black Duck
+  - Mallard
+  - Mottled Duck
+  - Blue-winged Teal
+  - Cinnamon Teal
+  - Northern Shoveler
+  - Northern Pintail
+  - Green-winged Teal
+  - Canvasback
+  - Redhead
+  - Ring-necked Duck
+  - Greater Scaup
+  - Lesser Scaup
+  - Steller's Eider
+  - King Eider
+  - Common Eider
+  - Harlequin Duck
+  - Surf Scoter
+  - White-winged Scoter
+  - Black Scoter
+  - Long-tailed Duck
+  - Bufflehead
+  - Common Goldeneye
+  - Barrow's Goldeneye
+  - Hooded Merganser
+  - Common Merganser
+  - Red-breasted Merganser
+  - Ruddy Duck
+- category: Curassows and Guans
   birds:
-    - Baltimore oriole
-    - Bobolink
-    - Brown-headed cowbird
-    - Common Grackle
-    - Orchard oriole
-    - Red-winged blackbird
-
-- category: Woodpeckers
+  - Plain Chachalaca
+- category: New World Quail
   birds:
-    - Downy Woodpecker
-    - Hairy Woodpecker
-    - Northern Flicker
-    - Pileated Woodpecker
-    - Red-bellied Woodpecker
-    - Red-headed Woodpecker
-    - Yellow-bellied sapsucker
-
-- category: Owls
+  - Mountain Quail
+  - Northern Bobwhite
+  - Scaled Quail
+  - California Quail
+  - Gambel's Quail
+  - Montezuma Quail
+- category: Partridges, Grouse, Turkeys and Old World Quail
   birds:
-    - Barred owl
-    - Eastern screech-owl
-    - Great horned-owl
-    - Snowy Owl
-
-- category: Warblers
+  - Chukar
+  - Gray Partridge
+  - Ring-necked Pheasant
+  - Ruffed Grouse
+  - Greater Sage-Grouse
+  - Gunnison Sage-Grouse
+  - Spruce Grouse
+  - Willow Ptarmigan
+  - Rock Ptarmigan
+  - White-tailed Ptarmigan
+  - Dusky Grouse
+  - Sooty Grouse
+  - Sharp-tailed Grouse
+  - Greater Prairie-Chicken
+  - Lesser Prairie-Chicken
+  - Wild Turkey
+- category: Loons
   birds:
-    - American Redstart
-    - Bay-breasted Warbler
-    - Black and white Warbler
-    - Black-throated Blue Warbler
-    - Black-throated Green Warbler
-    - Blackburnian Warbler
-    - Blackpoll Warbler
-    - Blue-winged Warbler
-    - Canada Warbler
-    - Chestnut-sided Warbler
-    - Common Yellowthroat
-    - Golden-winged Warbler
-    - Hooded Warbler
-    - Magnolia Warbler
-    - Nashville Warbler
-    - Northern Parula
-    - Palm Warbler
-    - Pine Warbler
-    - Prairie Warbler
-    - Tennessee Warbler
-    - Yellow Warbler
-    - Yellow-rumped Warbler
-    - Yellow-throated Warbler
-
-- category: Unique Birds
+  - Red-throated Loon
+  - Pacific Loon
+  - Common Loon
+- category: Grebes
   birds:
-    - Belted kingfisher
-    - Black-billed cuckoo
-    - Chimney swift
-    - Common nighthawk
-    - Eastern Whip-poor-will
-    - Mourning dove
-    - Ring-necked pheasant
-    - Rock pigeon
-    - Ruby-throated hummingbird
-    - Ruffed grouse
-    - Wild Turkey
-    - Yellow-billed cuckoo
-
-- category: Birds of prey
+  - Least Grebe
+  - Pied-billed Grebe
+  - Horned Grebe
+  - Red-necked Grebe
+  - Eared Grebe
+  - Western Grebe
+  - Clark's Grebe
+- category: Albatrosses
   birds:
-    - American kestrel
-    - Bald Eagle
-    - Black vulture
-    - Broad-winged hawk
-    - Cooper's hawk
-    - Osprey
-    - Red-shouldered hawk
-    - Red-tailed hawk
-    - Turkey vulture
-
-- category: Thrushes, Vireos, Flycatchers, Jays, etc.
+  - Laysan Albatross
+  - Black-footed Albatross
+- category: Shearwaters and Petrels
   birds:
-    - Eastern Wood-Pewee
-    - Acadian Flycatcher
-    - Willow Flycatcher
-    - Least Flycatcher
-    - Eastern Phoebe
-    - Great-Crested Flycatcher
-    - Eastern Kingbird
-    - White-eyed Vireo
-    - Yellow-throated Vireo
-    - Blue-headed Vireo
-    - Warbling Vireo
-    - Red-eyed Vireo
-    - Blue Jay
-    - American Crow
-    - Common Raven
-    - Horned Lark
-    - Northern Rough-winged Swallow
-    - Purple Martin
-    - Tree Swallow
-    - Barn Swallow
-    - Carolina Chickadee
-    - Black-capped chickadee
-    - Tufted Titmouse
-    - Red-breasted Nuthatch
-    - White-breasted Nuthatch
-    - Brown Creeper
-    - House Wren
-    - Carolina Wren
-    - Winter wren
-    - Blue-gray Gnatcatcher
-    - Golden-crowned Kinglet
-    - Ruby-crowned Kinglet
-    - Eastern Bluebird
-    - Veery
-    - Hermit Thrush
-    - Wood Thrush
-    - American Robin
-    - Gray Catbird
-    - Brown Thrasher
-    - Northern Mockingbird
-    - European Starling
-    - Cedar Waxwing
-    - Ovenbird
-...
+  - Northern Fulmar
+- category: Storm-Petrels
+  birds:
+  - Fork-tailed Storm-Petrel
+- category: Storks
+  birds:
+  - Wood Stork
+- category: Frigatebirds
+  birds:
+  - Magnificent Frigatebird
+- category: Boobies and Gannets
+  birds:
+  - Masked Booby
+  - Blue-footed Booby
+  - Brown Booby
+  - Red-footed Booby
+  - Northern Gannet
+- category: Cormorants
+  birds:
+  - Brandt's Cormorant
+  - Neotropic Cormorant
+  - Double-crested Cormorant
+  - Great Cormorant
+  - Pelagic Cormorant
+- category: Darters
+  birds:
+  - Anhinga
+- category: Pelicans
+  birds:
+  - American White Pelican
+  - Brown Pelican
+- category: Bitterns, Herons, and Allies
+  birds:
+  - American Bittern
+  - Least Bittern
+  - Great Blue Heron
+  - Great Egret
+  - Snowy Egret
+  - Little Blue Heron
+  - Tricolored Heron
+  - Reddish Egret
+  - Cattle Egret
+  - Green Heron
+  - Black-crowned Night-Heron
+  - Yellow-crowned Night-Heron
+- category: Ibises and Spoonbills
+  birds:
+  - White Ibis
+  - Glossy Ibis
+  - White-faced Ibis
+  - Roseate Spoonbill
+- category: New World Vultures
+  birds:
+  - Black Vulture
+  - Turkey Vulture
+  - California Condor
+- category: Ospreys
+  birds:
+  - Osprey
+- category: Kites, Hawks, Eagles, and Allies
+  birds:
+  - Swallow-tailed Kite
+  - White-tailed Kite
+  - Snail Kite
+  - Mississippi Kite
+  - Bald Eagle
+  - Golden Eagle
+  - Northern Harrier
+  - Sharp-shinned Hawk
+  - Cooper's Hawk
+  - Northern Goshawk
+  - Harris's Hawk
+  - White-tailed Hawk
+  - Gray Hawk
+  - Red-shouldered Hawk
+  - Broad-winged Hawk
+  - Swainson's Hawk
+  - Zone-tailed Hawk
+  - Rough-legged Hawk
+  - Red-tailed Hawk
+  - Ferruginous Hawk
+- category: Rails, Gallinules, and Coots
+  birds:
+  - Yellow Rail
+  - Black Rail
+  - Ridgway's Rail
+  - Clapper Rail
+  - King Rail
+  - Virginia Rail
+  - Sora
+  - Purple Gallinule
+  - Common Gallinule
+  - American Coot
+- category: Limpkins
+  birds:
+  - Limpkin
+- category: Cranes
+  birds:
+  - Sandhill Crane
+  - Whooping Crane
+- category: Plovers and Lapwings
+  birds:
+  - Black-bellied Plover
+  - American Golden-Plover
+  - Pacific Golden-Plover
+  - Snowy Plover
+  - Wilson's Plover
+  - Semipalmated Plover
+  - Piping Plover
+  - Killdeer
+  - Mountain Plover
+- category: Oystercatchers
+  birds:
+  - American Oystercatcher
+  - Black Oystercatcher
+- category: Stilts and Avocets
+  birds:
+  - Black-necked Stilt
+  - American Avocet
+- category: Sandpipers, Phalaropes, and Allies
+  birds:
+  - Upland Sandpiper
+  - Whimbrel
+  - Long-billed Curlew
+  - Hudsonian Godwit
+  - Marbled Godwit
+  - Ruddy Turnstone
+  - Black Turnstone
+  - Surfbird
+  - Red Knot
+  - Sanderling
+  - Semipalmated Sandpiper
+  - Western Sandpiper
+  - Least Sandpiper
+  - White-rumped Sandpiper
+  - Baird's Sandpiper
+  - Pectoral Sandpiper
+  - Purple Sandpiper
+  - Rock Sandpiper
+  - Dunlin
+  - Stilt Sandpiper
+  - Buff-breasted Sandpiper
+  - Short-billed Dowitcher
+  - Long-billed Dowitcher
+  - Wilson's Snipe
+  - American Woodcock
+  - Spotted Sandpiper
+  - Solitary Sandpiper
+  - Wandering Tattler
+  - Greater Yellowlegs
+  - Willet
+  - Lesser Yellowlegs
+  - Wilson's Phalarope
+- category: Gulls, Terns, and Skimmers
+  birds:
+  - Black-legged Kittiwake
+  - Ivory Gull
+  - Sabine's Gull
+  - Bonaparte's Gull
+  - Black-headed Gull
+  - Little Gull
+  - Ross's Gull
+  - Laughing Gull
+  - Franklin's Gull
+  - Heermann's Gull
+  - Mew Gull
+  - Ring-billed Gull
+  - Western Gull
+  - California Gull
+  - Herring Gull
+  - Thayer's Gull
+  - Iceland Gull
+  - Lesser Black-backed Gull
+  - Glaucous-winged Gull
+  - Glaucous Gull
+  - Great Black-backed Gull
+  - Least Tern
+  - Gull-billed Tern
+  - Caspian Tern
+  - Black Tern
+  - Roseate Tern
+  - Common Tern
+  - Arctic Tern
+  - Forster's Tern
+  - Royal Tern
+  - Sandwich Tern
+  - Elegant Tern
+  - Black Skimmer
+- category: Auks, Murres, and Puffins
+  birds:
+  - Dovekie
+  - Common Murre
+  - Thick-billed Murre
+  - Razorbill
+  - Black Guillemot
+  - Pigeon Guillemot
+  - Marbled Murrelet
+  - Ancient Murrelet
+  - Cassin's Auklet
+  - Parakeet Auklet
+  - Rhinoceros Auklet
+  - Atlantic Puffin
+  - Horned Puffin
+  - Tufted Puffin
+- category: Pigeons and Doves
+  birds:
+  - Rock Pigeon
+  - White-crowned Pigeon
+  - Band-tailed Pigeon
+  - African Collared-Dove
+  - Eurasian Collared-Dove
+  - White-winged Dove
+  - Mourning Dove
+  - Inca Dove
+  - Common Ground-Dove
+  - White-tipped Dove
+- category: Cuckoos, Roadrunners, and Anis
+  birds:
+  - Yellow-billed Cuckoo
+  - Mangrove Cuckoo
+  - Black-billed Cuckoo
+  - Greater Roadrunner
+  - Smooth-billed Ani
+  - Groove-billed Ani
+- category: Barn Owls
+  birds:
+  - Barn Owl
+- category: Typical Owls
+  birds:
+  - Flammulated Owl
+  - Western Screech-Owl
+  - Eastern Screech-Owl
+  - Great Horned Owl
+  - Snowy Owl
+  - Northern Hawk Owl
+  - Northern Pygmy-Owl
+  - Burrowing Owl
+  - Spotted Owl
+  - Barred Owl
+  - Great Gray Owl
+  - Long-eared Owl
+  - Short-eared Owl
+  - Boreal Owl
+  - Northern Saw-whet Owl
+- category: Goatsuckers
+  birds:
+  - Common Nighthawk
+  - Common Pauraque
+  - Common Poorwill
+  - Chuck-will's-widow
+  - Eastern Whip-poor-will
+- category: Swifts
+  birds:
+  - Chimney Swift
+  - Vaux's Swift
+  - White-throated Swift
+- category: Hummingbirds
+  birds:
+  - Rivoli's Hummingbird
+  - Blue-throated Hummingbird
+  - Lucifer Hummingbird
+  - Ruby-throated Hummingbird
+  - Black-chinned Hummingbird
+  - Anna's Hummingbird
+  - Costa's Hummingbird
+  - Broad-tailed Hummingbird
+  - Rufous Hummingbird
+  - Allen's Hummingbird
+  - Calliope Hummingbird
+  - Broad-billed Hummingbird
+  - Buff-bellied Hummingbird
+- category: ! 'Trogons and Quetzals '
+  birds:
+  - Elegant Trogon
+- category: Kingfishers
+  birds:
+  - Belted Kingfisher
+- category: Woodpeckers and Allies
+  birds:
+  - Lewis's Woodpecker
+  - Red-headed Woodpecker
+  - Acorn Woodpecker
+  - Gila Woodpecker
+  - Golden-fronted Woodpecker
+  - Red-bellied Woodpecker
+  - Williamson's Sapsucker
+  - Yellow-bellied Sapsucker
+  - Red-naped Sapsucker
+  - Red-breasted Sapsucker
+  - Ladder-backed Woodpecker
+  - Nuttall's Woodpecker
+  - Downy Woodpecker
+  - Hairy Woodpecker
+  - Arizona Woodpecker
+  - Red-cockaded Woodpecker
+  - White-headed Woodpecker
+  - American Three-toed Woodpecker
+  - Black-backed Woodpecker
+  - Northern Flicker
+  - Gilded Flicker
+  - Pileated Woodpecker
+  - Ivory-billed Woodpecker
+- category: Caracaras and Falcons
+  birds:
+  - Crested Caracara
+  - American Kestrel
+  - Merlin
+  - Gyrfalcon
+  - Peregrine Falcon
+  - Prairie Falcon
+- category: Parrots
+  birds:
+  - Monk Parakeet
+- category: Tyrant Flycatchers
+  birds:
+  - Olive-sided Flycatcher
+  - Greater Pewee
+  - Western Wood-Pewee
+  - Eastern Wood-Pewee
+  - Yellow-bellied Flycatcher
+  - Acadian Flycatcher
+  - Alder Flycatcher
+  - Willow Flycatcher
+  - Least Flycatcher
+  - Hammond's Flycatcher
+  - Gray Flycatcher
+  - Dusky Flycatcher
+  - Pacific-slope Flycatcher
+  - Cordilleran Flycatcher
+  - Buff-breasted Flycatcher
+  - Black Phoebe
+  - Eastern Phoebe
+  - Say's Phoebe
+  - Vermilion Flycatcher
+  - Ash-throated Flycatcher
+  - Great Crested Flycatcher
+  - Great Kiskadee
+  - Tropical Kingbird
+  - Couch's Kingbird
+  - Cassin's Kingbird
+  - Western Kingbird
+  - Eastern Kingbird
+  - Scissor-tailed Flycatcher
+- category: Shrikes
+  birds:
+  - Loggerhead Shrike
+  - Northern Shrike
+- category: Vireos
+  birds:
+  - Black-capped Vireo
+  - White-eyed Vireo
+  - Bell's Vireo
+  - Gray Vireo
+  - Hutton's Vireo
+  - Yellow-throated Vireo
+  - Cassin's Vireo
+  - Blue-headed Vireo
+  - Plumbeous Vireo
+  - Philadelphia Vireo
+  - Warbling Vireo
+  - Red-eyed Vireo
+  - Black-whiskered Vireo
+- category: Jays, Magpies, and Crows
+  birds:
+  - Gray Jay
+  - Green Jay
+  - Pinyon Jay
+  - Steller's Jay
+  - Blue Jay
+  - Florida Scrub-Jay
+  - California Scrub-Jay
+  - Woodhouse's Scrub-Jay
+  - Mexican Jay
+  - Clark's Nutcracker
+  - Black-billed Magpie
+  - Yellow-billed Magpie
+  - American Crow
+  - Northwestern Crow
+  - Fish Crow
+  - Chihuahuan Raven
+  - Common Raven
+- category: Larks
+  birds:
+  - Horned Lark
+- category: Swallows
+  birds:
+  - Purple Martin
+  - Tree Swallow
+  - Violet-green Swallow
+  - Northern Rough-winged Swallow
+  - Bank Swallow
+  - Cliff Swallow
+  - Cave Swallow
+  - Barn Swallow
+- category: Chickadees and Titmice
+  birds:
+  - Carolina Chickadee
+  - Black-capped Chickadee
+  - Mountain Chickadee
+  - Chestnut-backed Chickadee
+  - Boreal Chickadee
+  - Bridled Titmouse
+  - Oak Titmouse
+  - Juniper Titmouse
+  - Tufted Titmouse
+  - Black-crested Titmouse
+- category: Verdin
+  birds:
+  - Verdin
+- category: Bushtits
+  birds:
+  - Bushtit
+- category: Nuthatches
+  birds:
+  - Red-breasted Nuthatch
+  - White-breasted Nuthatch
+  - Pygmy Nuthatch
+  - Brown-headed Nuthatch
+- category: Creepers
+  birds:
+  - Brown Creeper
+- category: Wrens
+  birds:
+  - Rock Wren
+  - Canyon Wren
+  - House Wren
+  - Pacific Wren
+  - Winter Wren
+  - Sedge Wren
+  - Marsh Wren
+  - Carolina Wren
+  - Bewick's Wren
+  - Cactus Wren
+- category: Gnatcatchers
+  birds:
+  - Blue-gray Gnatcatcher
+  - Black-tailed Gnatcatcher
+- category: Dippers
+  birds:
+  - American Dipper
+- category: Kinglets
+  birds:
+  - Golden-crowned Kinglet
+  - Ruby-crowned Kinglet
+- category: Leaf Warblers
+  birds:
+  - Arctic Warbler
+- category: Parrotbills, Wrentit, and Allies
+  birds:
+  - Wrentit
+- category: Old World Flycatchers
+  birds:
+  - Bluethroat
+- category: Thrushes
+  birds:
+  - Eastern Bluebird
+  - Western Bluebird
+  - Mountain Bluebird
+  - Townsend's Solitaire
+  - Veery
+  - Gray-cheeked Thrush
+  - Bicknell's Thrush
+  - Swainson's Thrush
+  - Hermit Thrush
+  - Wood Thrush
+  - American Robin
+  - Varied Thrush
+- category: Mockingbirds, Thrashers, and Allies
+  birds:
+  - Gray Catbird
+  - Northern Mockingbird
+  - Sage Thrasher
+  - Brown Thrasher
+  - Long-billed Thrasher
+  - Bendire's Thrasher
+  - Curve-billed Thrasher
+  - California Thrasher
+  - Crissal Thrasher
+  - Le Conte's Thrasher
+- category: Starlings and Allies
+  birds:
+  - European Starling
+- category: Waxwings
+  birds:
+  - Bohemian Waxwing
+  - Cedar Waxwing
+- category: Silky-Flycatchers
+  birds:
+  - Phainopepla
+- category: Old World Sparrows
+  birds:
+  - House Sparrow
+  - Eurasian Tree Sparrow
+- category: Wagtails and Pipits
+  birds:
+  - American Pipit
+  - Sprague's Pipit
+- category: Finches and Allies
+  birds:
+  - Gray-crowned Rosy-Finch
+  - Black Rosy-Finch
+  - Brown-capped Rosy-Finch
+  - Pine Grosbeak
+  - Purple Finch
+  - Cassin's Finch
+  - House Finch
+  - Red Crossbill
+  - White-winged Crossbill
+  - Common Redpoll
+  - Hoary Redpoll
+  - Pine Siskin
+  - Lesser Goldfinch
+  - Lawrence's Goldfinch
+  - American Goldfinch
+  - Evening Grosbeak
+- category: Longspurs and Snow Buntings
+  birds:
+  - Lapland Longspur
+  - Chestnut-collared Longspur
+  - Smith's Longspur
+  - McCown's Longspur
+  - Snow Bunting
+- category: Wood-Warblers
+  birds:
+  - Ovenbird
+  - Worm-eating Warbler
+  - Louisiana Waterthrush
+  - Northern Waterthrush
+  - Golden-winged Warbler
+  - Blue-winged Warbler
+  - Black-and-white Warbler
+  - Prothonotary Warbler
+  - Swainson's Warbler
+  - Tennessee Warbler
+  - Orange-crowned Warbler
+  - Lucy's Warbler
+  - Nashville Warbler
+  - Connecticut Warbler
+  - MacGillivray's Warbler
+  - Mourning Warbler
+  - Kentucky Warbler
+  - Common Yellowthroat
+  - Hooded Warbler
+  - American Redstart
+  - Kirtland's Warbler
+  - Cape May Warbler
+  - Cerulean Warbler
+  - Northern Parula
+  - Magnolia Warbler
+  - Bay-breasted Warbler
+  - Blackburnian Warbler
+  - Yellow Warbler
+  - Chestnut-sided Warbler
+  - Blackpoll Warbler
+  - Black-throated Blue Warbler
+  - Palm Warbler
+  - Pine Warbler
+  - Yellow-rumped Warbler
+  - Yellow-throated Warbler
+  - Prairie Warbler
+  - Grace's Warbler
+  - Black-throated Gray Warbler
+  - Townsend's Warbler
+  - Hermit Warbler
+  - Golden-cheeked Warbler
+  - Black-throated Green Warbler
+  - Canada Warbler
+  - Wilson's Warbler
+  - Red-faced Warbler
+  - Painted Redstart
+  - Yellow-breasted Chat
+- category: New World Sparrows and Allies
+  birds:
+  - Green-tailed Towhee
+  - Spotted Towhee
+  - Eastern Towhee
+  - Rufous-crowned Sparrow
+  - Canyon Towhee
+  - California Towhee
+  - Abert's Towhee
+  - Rufous-winged Sparrow
+  - Botteri's Sparrow
+  - Cassin's Sparrow
+  - American Tree Sparrow
+  - Chipping Sparrow
+  - Clay-colored Sparrow
+  - Brewer's Sparrow
+  - Field Sparrow
+  - Vesper Sparrow
+  - Lark Sparrow
+  - Black-throated Sparrow
+  - Sagebrush Sparrow
+  - Bell's Sparrow
+  - Lark Bunting
+  - Savannah Sparrow
+  - Grasshopper Sparrow
+  - Baird's Sparrow
+  - Henslow's Sparrow
+  - Le Conte's Sparrow
+  - Nelson's Sparrow
+  - Saltmarsh Sparrow
+  - Seaside Sparrow
+  - Fox Sparrow
+  - Song Sparrow
+  - Lincoln's Sparrow
+  - Swamp Sparrow
+  - White-throated Sparrow
+  - Harris's Sparrow
+  - White-crowned Sparrow
+  - Golden-crowned Sparrow
+  - Dark-eyed Junco
+- category: Cardinals, Grosbeaks, and Allies
+  birds:
+  - Hepatic Tanager
+  - Summer Tanager
+  - Scarlet Tanager
+  - Western Tanager
+  - Northern Cardinal
+  - Pyrrhuloxia
+  - Rose-breasted Grosbeak
+  - Black-headed Grosbeak
+  - Blue Grosbeak
+  - Lazuli Bunting
+  - Indigo Bunting
+  - Varied Bunting
+  - Painted Bunting
+  - Dickcissel
+- category: Blackbirds and Allies
+  birds:
+  - Bobolink
+  - Red-winged Blackbird
+  - Eastern Meadowlark
+  - Western Meadowlark
+  - Yellow-headed Blackbird
+  - Rusty Blackbird
+  - Brewer's Blackbird
+  - Common Grackle
+  - Boat-tailed Grackle
+  - Great-tailed Grackle
+  - Shiny Cowbird
+  - Bronzed Cowbird
+  - Brown-headed Cowbird
+  - Orchard Oriole
+  - Hooded Oriole
+  - Bullock's Oriole
+  - Spot-breasted Oriole
+  - Altamira Oriole
+  - Audubon's Oriole
+  - Baltimore Oriole
+  - Scott's Oriole

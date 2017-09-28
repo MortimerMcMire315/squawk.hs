@@ -1,0 +1,8 @@
+$forall birdcat <- birdCatLs
+    <input type="checkbox" value="#{category birdcat}" .birdcat-check>
+    <h3 .birdcat-name>#{category birdcat}
+    <div .clear-left>
+    $forall bird <- birdNames birdcat
+        <input type="checkbox" value="#{bird}" .bird-check>
+        <p .bird-name>#{bird}
+        <div .clear-left>

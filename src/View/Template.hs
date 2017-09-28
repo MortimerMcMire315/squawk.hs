@@ -33,3 +33,6 @@ headerT = $(shamletFile $ hamFile "header")
 
 homePageT :: [BirdCategory] -> Html
 homePageT birdCatLs = $(shamletFile $ hamFile "home")
+
+categorySelectT :: [BirdCategory] -> Html
+categorySelectT birdCatLs = $(shamletFile $ hamFile "categorySelect")

@@ -46,3 +46,21 @@ div#quiz:after {
     content: "";
     display: table;
 }
+
+.birdcat-check, .bird-check {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.bird-name, .birdcat-name {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+.clear-left {
+    clear: both;
+}
