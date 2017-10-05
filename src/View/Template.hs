@@ -2,28 +2,17 @@
 module View.Template (module View.Template) where
 
 import Text.Hamlet       ( shamletFile
-                         , Html              )
-import Text.Lucius       ( luciusFile
-                         , renderCss
-                         , Css               )
-import Text.Julius       ( juliusFile
-                         , renderJavascriptUrl
-                         , Javascript        )
-import Text.Blaze.Html   ( preEscapedToHtml  )
+                         , Html             )
+import Text.Blaze.Html   ( preEscapedToHtml )
 
 import View.TemplateUtil ( hamFile
                          , cssFile
-                         , jsFile            )
+                         , jsFile           )
 
 import BirdData.YAML     ( birdNames
                          , category
                          , getBirdNames
-                         , BirdCategory      )
-
-mainStyleSheet = renderCss $ $(luciusFile (cssFile "styles")) undefined
-normalizeCSS   = renderCss $ $(luciusFile (cssFile "normalize")) undefined
-
-mainJS = renderJavascriptUrl (\_ _ -> undefined) $(juliusFile (jsFile "main"))
+                         , BirdCategory     )
 
 footerT :: Html
 footerT = $(shamletFile $ hamFile "footer")

@@ -3,4 +3,7 @@ echo "Checking for existence of \"sass\" command..."
 command -v sass >/dev/null 2>&1 || { echo >&2 "No SASS/SCSS compiler found."; exit 1; }
 
 echo "Compiling SCSS files to CSS/Lucius..."
-sass ./template/lucius/styles.scss ./template/lucius/styles.lucius
+for f in ./template/css/*.scss; do
+    echo "Compiling $f..."
+    sass "$f" "$(echo "$f" | sed -re 's/scss/css/g')";
+done
