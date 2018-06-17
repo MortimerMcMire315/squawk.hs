@@ -1,6 +1,6 @@
 name:                squawk
 version:             0.1.0.0
-synopsis:            Initial project template from stack
+synopsis:            yo
 description:         Please see README.md
 homepage:            https://github.com/MortimerMcMire315/squawk#readme
 license:             GPL-3
@@ -17,8 +17,10 @@ cabal-version:       >=1.23
 library
   hs-source-dirs:      src
   exposed-modules:     Server
+                     , Cron.Crawler
 
-  other-modules:       Routes
+  other-modules:       Config
+                     , Routes
                      , View.AJAX
                      , View.ContentTypes
                      , View.Views
@@ -27,20 +29,26 @@ library
                      , BirdData.Bird
                      , BirdData.JSON
                      , BirdData.YAML
+                     , DB.Conn
 
   build-depends:       aeson >= 1.0 && < 2.0
                      , base >= 4.7 && < 5
                      , blaze-html >= 0.8 && < 1.0
                      , bytestring >= 0.10 && < 0.20
+                     , ConfigFile >= 1.1 && < 2.0
+                     , directory  >= 1.0 && < 2.0
                      , exceptions >= 0.8 && < 1.0
                      , happstack-clientsession >= 7.0
                      , happstack-server >= 7.0 && < 8.0
                      , lens >= 4.0 && < 5.0
+                     , mtl >= 2.0 && < 3.0
                      , pcre-heavy >= 1.0 && < 2.0
                      , shakespeare >= 2.0.11 && < 3
                      , wreq >= 0.5 && < 1.0
                      , yaml >= 0.8 && < 1.0
                      , text >= 1.2 && < 2.0
+                     , postgresql-orm >= 0.5.0
+                     , postgresql-simple >= 0.5
   default-language:    Haskell2010
 
 custom-setup
@@ -57,12 +65,20 @@ executable squawk
                      , squawk
   default-language:    Haskell2010
 
+executable squawk-cron
+  hs-source-dirs:      app
+  main-is:             Cron.hs
+  ghc-options:         -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base
+                     , squawk
+  default-language:    Haskell2010
+
 test-suite squawk-test
   type:                exitcode-stdio-1.0
   hs-source-dirs:      test
   main-is:             Spec.hs
   build-depends:       base
-                     , sparkive
+                     , squawk
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 

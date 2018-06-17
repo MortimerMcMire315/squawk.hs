@@ -17,6 +17,7 @@ import Data.Aeson.Types              ( parseEither
 import Data.Aeson                    ( eitherDecode
                                      , withObject
                                      , (.:)       )
+import Debug.Trace                   ( trace      )
 
 import BirdData.Bird ( Bird )
 
